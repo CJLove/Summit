@@ -1,3 +1,9 @@
+# cc65 executanbles
+*.prg
+
+# sprite include files generated from png files
+*.inc
+
 # Prerequisites
 *.d
 
