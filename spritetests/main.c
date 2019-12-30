@@ -59,7 +59,7 @@ int main()
     uint16_t dy = 5;
 
     // Read VIA1 register in memory as a seed
-    uint16_t *seed = 0x9f64;
+    uint16_t *seed = (uint16_t *) 0x9f64;
 
     srand(*seed);
 //    printf("seed=%d\n",*seed);
